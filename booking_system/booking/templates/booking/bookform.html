@@ -1,0 +1,7 @@
+<form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">submit</button>
+</form>
+<h3>Total seats : {{total}}</h3>
+<h3>left seats : {{left}}</h3>
